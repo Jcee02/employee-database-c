@@ -22,7 +22,7 @@ This will:
 ## Usage
 The program supports the following command-line arguments:
 - `-f <filename>` : Specify the database file to use
-- `-n` : List all employees in the database
+- `-n` : Specify new db file
 - `-a <record>` : Add a new employee record
 
 ## Data Format
@@ -36,7 +36,7 @@ Where:
 - id: Unique employee identifier
 
 ## Examples
-1. List all employees in a database:
+1. Create a db file:
 ```
 ./bin/dbview -f mydba.db -n
 ```
